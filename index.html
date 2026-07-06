@@ -128,5 +128,19 @@
   </footer>
 
   <script src="js/script.js"></script>
+
+  <!-- Mailto fallback modal for users without an email client -->
+  <div id="mailto-fallback" class="modal" aria-hidden="true" hidden>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close dialog">×</button>
+      <h4 id="modal-title">Can't open your mail client?</h4>
+      <p>You can copy the message below and paste it into your email app, or try opening the mail client manually.</p>
+      <textarea readonly class="modal-textarea"></textarea>
+      <div class="modal-actions">
+        <button class="modal-copy">Copy message</button>
+        <a class="modal-open" href="#" target="_blank" rel="noopener">Open mail client</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
