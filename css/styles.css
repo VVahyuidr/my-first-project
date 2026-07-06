@@ -13,6 +13,10 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "
 .site-header .container{display:flex;align-items:center;justify-content:space-between}
 .logo{font-weight:700;color:var(--accent);text-decoration:none}
 .nav{display:flex;gap:1rem}
+.social{display:flex;gap:.5rem;align-items:center;margin-left:1rem}
+.social a{color:var(--muted);display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.social svg{width:20px;height:20px;display:block}
+.social a:hover{color:var(--accent)}
 .nav a{color:var(--muted);text-decoration:none}
 .nav-toggle{display:none;background:transparent;border:0;font-size:1.25rem}
 

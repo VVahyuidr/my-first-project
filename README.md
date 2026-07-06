@@ -11,3 +11,9 @@ python3 -m http.server 8000
 ```
 
 Customize `index.html`, update the email and GitHub links, and add your project pages.
+
+Contact:
+
+- Email: wahyu12345lbk@gmail.com
+- GitHub: https://github.com/VVahyuidr
+- Instagram: https://instagram.com/_wahyu_indrawan
