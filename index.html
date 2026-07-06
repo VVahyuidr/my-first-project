@@ -81,8 +81,42 @@
 
     <section id="contact" class="section">
       <div class="container">
-        <h2>Contact</h2>
-        <p>I'm available for freelance and full-time work. Email me at <a href="mailto:wahyu12345lbk@gmail.com">wahyu12345lbk@gmail.com</a>. Connect: <a href="https://github.com/VVahyuidr" target="_blank" rel="noopener">github.com/VVahyuidr</a> · <a href="https://instagram.com/_wahyu_indrawan" target="_blank" rel="noopener">Instagram</a>.</p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h2>Contact</h2>
+            <p>I'd love to hear about your project or opportunities. Reach out and I'll get back to you soon.</p>
+
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:wahyu12345lbk@gmail.com">wahyu12345lbk@gmail.com</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/VVahyuidr" target="_blank" rel="noopener">VVahyuidr</a></li>
+              <li><strong>Instagram:</strong> <a href="https://instagram.com/_wahyu_indrawan" target="_blank" rel="noopener">@_wahyu_indrawan</a></li>
+            </ul>
+
+            <div class="contact-social">
+              <a href="mailto:wahyu12345lbk@gmail.com" aria-label="Email Wahyu">Email</a>
+              <a href="https://github.com/VVahyuidr" target="_blank" rel="noopener" aria-label="GitHub profile">GitHub</a>
+              <a href="https://instagram.com/_wahyu_indrawan" target="_blank" rel="noopener" aria-label="Instagram profile">Instagram</a>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form" aria-labelledby="contact-form-title">
+            <h3 id="contact-form-title">Send a message</h3>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project" required></textarea>
+
+            <button type="submit" class="btn">Send message</button>
+
+            <div id="contact-success" class="contact-success" role="status" aria-live="polite" hidden>
+              Thanks — your message looks great. I'll reply soon.
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   </main>
